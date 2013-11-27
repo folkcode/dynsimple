@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 $:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 
-require 'dynsimple'
+begin
+  require 'dynsimple'
+rescue LoadError
+  require 'rubygems'
+  require 'dynsimple'
+end
 
 DynSimple::CLI.run
