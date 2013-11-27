@@ -1,5 +1,4 @@
-require "dynsimple/version"
-
-module Dynsimple
-  # Your code goes here...
-end
+require 'mixlib/cli'
+require 'httparty'
+require 'dynsimple/version'
+require 'dynsimple/cli'

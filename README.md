@@ -1,24 +1,17 @@
-# Dynsimple
+# DynSimple
 
-TODO: Write a gem description
+Dynamic IP + DNSimple + Phaser Beams = DynSimple
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'dynsimple'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install dynsimple
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ dynsimple --domain example.com --token deadbeef --record 42
+
+**NOTE: Domain is the parent domain of your record, whereas the record
+ip points to your real record, i.e. 'home.example.com'!**
 
 ## Contributing
 
@@ -27,3 +20,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Copyright
+
+Copyright (c) 2013 Björn Albers
