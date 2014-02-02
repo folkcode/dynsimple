@@ -1,4 +1,5 @@
 require 'mixlib/cli'
 require 'httparty'
+require 'cabin'
 require 'dynsimple/version'
 require 'dynsimple/cli'
